@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote
-        name="ubccr"
+        name="aaronweeden"
         alias="upstream"
-        fetch="https://github.com/ubccr"
+        fetch="https://github.com/aaronweeden"
     />
     <default
-        remote="ubccr"
-        revision="xdmod10.5"
+        remote="aaronweeden"
+        revision="xdmod11.0"
     />
 
     <!--
@@ -50,6 +50,7 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
+        revision="enable-application-batch-export"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
