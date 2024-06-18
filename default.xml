@@ -23,8 +23,6 @@
     <project
         name="xdmod"
         groups="xdmod"
-        remote="aaronweeden"
-        revision="ood-11.0-rc"
     />
 
     <!--
@@ -42,8 +40,6 @@
     <project
         name="xdmod-supremm"
         groups="supremm"
-        remote="ubccr"
-        revision="xdmod11.0"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/supremm" />
     </project>
@@ -51,7 +47,7 @@
         name="xdmod-ondemand"
         groups="ondemand"
         remote="aaronweeden"
-        revision="change-counting"
+        revision="exclude-jpeg"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
@@ -67,8 +63,6 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="aaronweeden"
-        revision="add-ondemand-realm"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
