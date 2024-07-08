@@ -46,8 +46,6 @@
     <project
         name="xdmod-ondemand"
         groups="ondemand"
-        remote="aaronweeden"
-        revision="exclude-jpeg"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/ondemand" />
     </project>
@@ -63,8 +61,6 @@
     <project
         name="xdmod-xsede"
         groups="xsede"
-        remote="aaronweeden"
-        revision="fix-build-json"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
