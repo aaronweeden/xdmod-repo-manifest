@@ -6,9 +6,14 @@
         fetch="https://github.com/ubccr"
     />
     <remote
-            name="github-ryanrath"
-            alias="ryanrath"
-            fetch="https://github.com/ryanrath"
+        name="github-ryanrath"
+        alias="ryanrath"
+        fetch="https://github.com/ryanrath"
+    />
+    <remote
+        name="aaronweeden"
+        alias="aaronweeden"
+        fetch="https://github.com/aaronweeden"
     />
     <default
         remote="ubccr"
@@ -23,6 +28,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="aaronweeden"
+        revision="fix-raw-data-11.0"
     />
 
     <!--
@@ -62,10 +69,10 @@
         <linkfile src="." dest="xdmod/open_xdmod/modules/xsede" />
     </project>
     <project
-            name="xdmod-cloudbank"
-            groups="cloudbank"
-            remote="github-ryanrath"
-            revision="merge-udt-and-afr"
+        name="xdmod-cloudbank"
+        groups="cloudbank"
+        remote="github-ryanrath"
+        revision="merge-udt-and-afr"
     >
         <linkfile src="." dest="xdmod/open_xdmod/modules/cloudbank"/>
     </project>
