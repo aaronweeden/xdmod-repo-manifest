@@ -10,6 +10,11 @@
             alias="ryanrath"
             fetch="https://github.com/ryanrath"
     />
+    <remote
+            name="aaronweeden"
+            alias="aaronweeden"
+            fetch="https://github.com/aaronweeden"
+    />
     <default
         remote="ubccr"
         revision="main"
@@ -23,6 +28,8 @@
     <project
         name="xdmod"
         groups="xdmod"
+        remote="aaronweeden"
+        revision="add-resource-metadata-build-json-main"
     />
 
     <!--
